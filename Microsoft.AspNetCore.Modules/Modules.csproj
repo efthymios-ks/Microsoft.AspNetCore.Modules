@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>Microsoft.AspNetCore.Modules</RootNamespace>
+		<AssemblyName>Microsoft.AspNetCore.Modules</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="Microsoft.AspNetCore.Modules.Tests" />
+	</ItemGroup>
+</Project>
